@@ -29,9 +29,12 @@ namespace ApiUnitTest
         }
 
         [Test]
-        public void ab_test()
+        public void year_does_not_affect()
         {
-            Assert.AreEqual("AB", "AB");
+            var testController = new testIsChrismas(new DateTime(2010,12,25));
+            var expected = "Today is Chrismas";
+            var result = testController.IsChrismas();
+            Assert.AreEqual(expected, result);
         }
     }
 
