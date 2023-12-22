@@ -72,3 +72,15 @@ _TeamCity*
 
 # DotCover is a Code Coverage Tool
 *.dotCover
+ApiTest/obj/ApiTest.csproj.nuget.dgspec.json
+ApiTest/obj/project.assets.json
+ApiTest/obj/project.nuget.cache
+ApiTest/obj/Debug/net6.0/ApiTest.assets.cache
+
+*.nuget.cache
+*.editorconfig
+*.dgspec.json
+*.assets.json
+*.assets.cache
+*.cache
+ApiUnitTest/obj/Debug/net7.0/ApiUnitTest.GeneratedMSBuildEditorConfig.editorconfig

@@ -27,6 +27,12 @@ namespace ApiUnitTest
             var result = testController.IsChrismas();
             Assert.AreEqual(expected, result);
         }
+
+        [Test]
+        public void ab_test()
+        {
+            Assert.AreEqual("AB", "AB");
+        }
     }
 
     public class testIsChrismas : TestService
